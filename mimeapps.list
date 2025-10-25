@@ -1,0 +1,9 @@
+
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop
+text/html=microsoft-edge.desktop
+x-scheme-handler/http=microsoft-edge.desktop
+x-scheme-handler/https=microsoft-edge.desktop
+x-scheme-handler/about=microsoft-edge.desktop
+x-scheme-handler/unknown=microsoft-edge.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop

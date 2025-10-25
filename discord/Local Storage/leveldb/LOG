@@ -1,0 +1,6 @@
+2025/10/25-08:39:17.295 26f61 Reusing MANIFEST /home/marko/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/10/25-08:39:17.297 26f61 Recovering log #57
+2025/10/25-08:39:17.297 26f61 Reusing old log /home/marko/.config/discord/Local Storage/leveldb/000057.log 
+2025/10/25-08:45:40.025 26f62 Level-0 table #63: started
+2025/10/25-08:45:40.046 26f62 Level-0 table #63: 2645175 bytes OK
+2025/10/25-08:45:40.051 26f62 Delete type=0 #57

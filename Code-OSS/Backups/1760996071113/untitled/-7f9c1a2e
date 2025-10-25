@@ -1,0 +1,74 @@
+untitled:Untitled-1 {"typeId":""}
+[global]
+   workgroup = WORKGROUP
+   server string = CachyOS NAS Server
+   security = user
+   map to guest = Bad User
+   dns proxy = no
+   
+   # Local network only
+   hosts allow = 192.168. 127.
+   
+   # Performance tuning
+   socket options = TCP_NODELAY IPTOS_LOWDELAY SO_RCVBUF=524288 SO_SNDBUF=524288
+   read raw = yes
+   write raw = yes
+   max xmit = 65535
+   dead time = 15
+   getwd cache = yes
+   
+   # User shares support
+   usershare allow guests = yes
+   usershare max shares = 100
+   usershare owner only = yes
+   usershare path = /var/lib/samba/usershares
+
+[NAS]
+   path = /mnt/NAS/Sigma
+   browseable = yes
+   writable = yes
+   read only = no
+   guest ok = yes
+   create mask = 0777
+   directory mask = 0777
+   force user = atlessa
+   comment = Sigma Storage
+
+
+
+
+
+   [global]
+   workgroup = WORKGROUP
+   server string = CachyOS NAS Server
+   security = user
+   map to guest = Bad User
+   dns proxy = no
+   
+   
+   hosts allow = 192.168. 127.
+   
+  
+   socket options = TCP_NODELAY IPTOS_LOWDELAY SO_RCVBUF=524288 SO_SNDBUF=524288
+   read raw = yes
+   write raw = yes
+   max xmit = 65535
+   dead time = 15
+   getwd cache = yes
+   
+
+   usershare allow guests = yes
+   usershare max shares = 100
+   usershare owner only = yes
+   usershare path = /var/lib/samba/usershares
+
+[NAS]
+   path = /mnt/NAS/Sigma
+   browseable = yes
+   writable = yes
+   read only = no
+   guest ok = yes
+   create mask = 0777
+   directory mask = 0777
+   force user = atlessa
+   comment = Sigma Storage
